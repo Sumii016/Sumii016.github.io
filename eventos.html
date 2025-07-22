@@ -1,58 +1,54 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Eventos Fundación Parkinson Honduras</title>
-  <link rel="stylesheet" href="css/estilos.css" />
+    <meta charset="UTF-8">
+    <title>Eventos Fundación Parkinson Honduras</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <header>
-    <section class="eventos">
-      <img src="assets/logo.jpeg" alt="Logo Fundación Parkinson" />
-      <h1>Fundación Parkinson HN</h1>
-    </section>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#eventos" class="proximoseventos">Eventos</a></li>
-        <li><a href="#contactenos">Contáctenos</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <img src="assets/banner.jpg" alt="Eventos Fundación Parkinson" />
-      <h2>Próximos Eventos</h2>
-    </section>
-
-    <section class="contenedor eventos">
-      <div class="fila">
-        <div class="col-4 evento">
-          <img src="assets/epidemiologia.jpg" alt="epidemiologia" />
-          <h3>Charla: Avances en Tratamientos</h3>
-          <p>Fecha: 3 de Diciembre, 2025<br>Lugar: Tegucigalpa</p>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.jpeg" alt="Logo Fundación Parkinson">
+            <h1>Fundación Parkinson HN</h1>
         </div>
-        <div class="col-4 evento">
-          <img src="assets/octubre.jpg" alt="terapia farmacologico" />
-          <h3> tratamiento farmacológico para edades tempranas</h3>
-          <p>Fecha: 1 de Octubre, 2025<br>Lugar: San Pedro Sula</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main section="container">
+        <section class="row">
+            <div class="col-12">
+                <h2 class="titulo-seccion">Nuestros Eventos</h2>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-4 evento-box">
+                <img src="assets/epidemiologia.jpg" alt="Evento 1">
+                <h3>Epidemiología del Parkinson: La epidemia que no se ve</h3>
+                <p>En esta conferencia se hablará sobre el crecimiento del Parkinson en América Latina,
+                 los retos que enfrentan los pacientes y la necesidad urgente de generar mayor atención, conciencia y apoyo en la región.</p>
+            </div>
+            <div class="col-4 evento-box">
+                <img src="assets/octubre.jpg" alt="Evento 2">
+                <h3>Tratamientos farmacológico para el Parkinson</h3>
+                <p>El tratamiento del Parkinson va mucho más allá de un solo medicamento. 
+                    En esta charla abordaremos de forma clara y accesible los principales tratamientos farmacológicos que ayudan a controlar los síntomas de la enfermedad.</p>
+            </div>
+            <div class="col-4 evento-box">
+                <img src="assets/sueño.jpg" alt="Evento 3">
+                <h3>Sueños en pacientes con Parkinson</h3>
+                <p>En esta charla se Explorara cómo el Parkinson impacta el mundo del sueño, 
+                qué hay detrás de estas experiencias nocturnas, y cómo pacientes, familiares y profesionales pueden comprenderlas y manejarlas mejor.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-texto">
+            & Fundación Parkinson Honduras Todos los derechos reservados
         </div>
-        <div class="col-4 evento">
-          <img src="assets/sueño.jpg" alt="mejorar calidad de sueño" />
-          <h3>Sueño en pacintes dcon Parkinson</h3>
-          <p>Fecha: 20 de octubre, 2025<br>Lugar: coliseo de ingenieros</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Fundación Parkinson Honduras</p>
-    <section class="telefono">
-      <a href="telefono">+504 1234-5678</a>
-      <a href="https://www.facebook.com/ParkinsonHn/">info@parkinsonhn.org</a>
-    </section>
-  </footer>
+    </footer>
 </body>
 </html>
