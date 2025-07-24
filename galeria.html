@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería - Asociación Parkinson</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <style>
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    img:not(.logo) {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 20px 10px;
+    }
+
+    td {
+      width: 50%;
+    }
+
+    footer p {
+      text-align: center;
+    }
+
+    header section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    header section h1 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <section>
+      <img class="logo" src="imgs/logo-parkinson.jpg" alt="Logo de Parkinson Honduras" width="60">
+      <h1>Asociación de Apoyo al Parkinson</h1>
+    </section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2 style="text-align: center;">Galería de Momentos</h2>
+      <p style="text-align: center;">Descubre algunas de las actividades, eventos y momentos especiales que vivimos en comunidad.</p>
+    </section>
+
+    <!-- FISIOTERAPIAS -->
+    <section>
+      <h3>Fisioterapias que ayudarán a mejorar tu calidad de vida</h3>
+      <table>
+        <tr>
+          <td><img src="imgs/ejer1.jpg" alt="Paciente en ejercicio terapéutico"></td>
+          <td><img src="imgs/ejer2.jpg" alt="Terapia guiada por especialista"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/ejer3.jpg" alt="Ejercicio físico funcional"></td>
+          <td><img src="imgs/ejer4.jpg" alt="Actividad supervisada"></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- PERSONAL CAPACITADO -->
+    <section>
+      <h3>Personal capacitado para ayudarte</h3>
+      <table>
+        <tr>
+          <td><img src="imgs/per1.jpg" alt="Especialista dando atención"></td>
+          <td><img src="imgs/per2.jpg" alt="Entrenamiento del personal de salud"></td>
+        </tr>
+        <tr>
+          <td><img src="imgs/per3.jpg" alt="Apoyo al paciente"></td>
+          <td><img src="imgs/per4.jpg" alt="Atención profesional"></td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer-texto">&copy; Asociación de Apoyo al Parkinson Honduras</p>
+  </footer>
+</body>
+</html>
