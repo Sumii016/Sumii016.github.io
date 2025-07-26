@@ -61,101 +61,6 @@ header nav ul li a:hover {
   border-radius: 6px;
 }
 
-/* CARRUSEL */
-.carusel {
-  position: relative;
-  width: 100vw;
-  height: 500px;
-  overflow: hidden;
-}
-
-.carusel-track {
-  display: flex;
-  transition: transform 0.5s ease;
-  width: 300vw;
-}
-
-.carusel-slide {
-  width: 100vw;
-  flex-shrink: 0;
-  position: relative;
-}
-
-.carusel-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.carusel-action {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 15px;
-  border-radius: 10px;
-}
-
-.carusel-btn-pre,
-.carusel-btn-nxt {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0.5rem 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-  user-select: none;
-}
-
-.carusel-btn-pre:hover,
-.carusel-btn-nxt:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.carusel-btn-pre {
-  left: 15px;
-}
-
-.carusel-btn-nxt {
-  right: 15px;
-}
-
-.carusel-dots {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-  z-index: 10;
-}
-
-.carusel-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.carusel-dot:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  transform: scale(1.2);
-}
-
-.carusel-dot.active {
-  background-color: #fff;
-  border: 2px solid #333;
-}
-
-/* FOOTER */
 footer {
   background-color: #ca8eee;
   color: #222;
@@ -171,7 +76,6 @@ footer {
   align-items: center;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -181,17 +85,5 @@ footer {
   header nav ul {
     flex-wrap: wrap;
     gap: 0.5rem;
-  }
-
-  .carusel {
-    height: 300px;
-  }
-
-  .carusel-action h2 {
-    font-size: 1.2rem;
-  }
-
-  .carusel-action button {
-    font-size: 1rem;
   }
 }
